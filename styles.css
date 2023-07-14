@@ -1,0 +1,120 @@
+/* .main-nav-logo a img {
+    width: var(--line-height);
+    height: var(--line-height);
+    border-radius: 15px;
+    /* border: 1px solid #0b666a; */
+/* margin-left: 4px;
+    margin-top: 2px; */
+/* display: flex; */
+/* } */
+
+.main-nav-logo a,
+.main-nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-blue);
+    padding: 0 20px 0 20px;
+    /* -webkit-box-shadow: 0px 8px 7px 2px rgba(53, 162, 159, 1);
+    -moz-box-shadow: 0px 8px 7px 2px rgba(53, 162, 159, 1);
+    box-shadow: 0px 8px 7px 2px rgba(53, 162, 159, 1); */
+    border-radius: 20px 20px 0 0;
+    /* height: var(--line-height); */
+}
+
+.main-nav-links ul li {
+    display: inline;
+    margin: 20px;
+}
+
+/* :root {
+    --blue: #0000FF;
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    padding: 20px;
+
+    --primary-blue: #d9f7fa;
+    --color-font: #0D2451;
+    --line-height: 90px;
+}
+
+.main-nav-links ul {
+    line-height: var(--line-height);
+    margin: 0;
+}
+
+a {
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+.main-nav-links ul li a {
+    font-size: large;
+    /* text-decoration: none; */
+}
+
+.main-nav-logo a span {
+    margin: 1rem;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--primary-blue);
+}
+
+.header>div {
+    width: 40%;
+}
+
+/* main {
+    position: relative;
+} */
+.gpa-container {
+    box-shadow: 0 0.25em 1em rgba(7, 29, 63, 0.125);
+    border-radius: 10px;
+    width: 75%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: calc(740px - 50%);
+    left: calc(280px - 15%);
+    background-color: white;
+    /* position: relative;
+    bottom: 70px;
+    background-color: white; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    color: var(--color-font);
+}
+
+/* html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+} */
