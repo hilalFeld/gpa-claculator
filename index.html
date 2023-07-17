@@ -341,8 +341,8 @@
             </div>
         </div>
         <div class="gpa-container">
-            <h2>Semester 1</h2>
-            <input type="text" id="" placeholder="Course name">
+            <h2>GPA Calculator</h2>
+            <!-- <input type="text" id="" placeholder="Course name">
             <select id="Grade">
                 <option style="display: none;">Grade</option>
                 <option>A+</option>
@@ -359,7 +359,14 @@
                 <option>D-</option>
                 <option>F</option>
             </select>
-            <input type="text" placeholder="Credits">
+            <input type="text" placeholder="Credits"> -->
+            <div id="semester-container"></div>
+
+            <!-- <div> -->
+            <button onclick="addSemester()">Add Semester</button>
+            <button onclick="calculateGPA()" id="calculate" disabled>Calculate GPA</button>
+            <p id="output"></p>
+            <!-- </div> -->
         </div>
     </main>
 
